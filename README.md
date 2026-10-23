@@ -1,5 +1,9 @@
 # DATMM consolidated research-graph explorer
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/conroyriodss/datmm-explorer/blob/main/notebooks/DATMM_Consolidated_Acquisition_Architecture_Explorer.ipynb)
+
+The button opens the notebook from `main`. For the released version, [open the v0.1.1 notebook in Colab](https://colab.research.google.com/github/conroyriodss/datmm-explorer/blob/v0.1.1/notebooks/DATMM_Consolidated_Acquisition_Architecture_Explorer.ipynb).
+
 > Upload fix (v0.1.1): repository files are now transferred with a normal Git push. Python uses its standard library; the Git executable must also be installed. The token stays in memory and a temporary child-process environment, never in a URL or saved credential file. This candidate preserves the previously frozen browser and selected exports.
 
 A notebook for assembling a source-attributed research graph and a self-contained HTML explorer. The supplied snapshot contains 3,858 nodes and 7,667 evidence edges; these are counts inspected in the embedded payload, not independently validated scientific results.
@@ -11,6 +15,8 @@ Open `docs/index.html` in a desktop browser. Its graph and Plotly library are em
 For a public website, configure GitHub Pages to deploy from `main` and `/docs`. The website shows the current branch version. For a fixed historical snapshot, download the ZIP from a specific GitHub release.
 
 ## Run the notebook
+
+The Colab link opens the notebook without cloning the repository into the runtime. The optional GitHub publishing cell still needs the companion project files described in [RELEASE_GUIDE.md](RELEASE_GUIDE.md).
 
 Open `notebooks/DATMM_Consolidated_Acquisition_Architecture_Explorer.ipynb` in Google Colab or Jupyter. The first code cell installs pinned direct dependencies. Colab offers optional Drive persistence; local Jupyter does not mount Drive. Read the acquisition configuration before running all cells: the normal `cache_first` mode can make requests to source services when caches are absent. To request no new source data, use `MODE='offline'`.
 
