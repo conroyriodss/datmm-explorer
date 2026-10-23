@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "supplied_files": [
+    {
+      "name": "DATMM_Consolidated_Acquisition_Architecture_Explorer (1).ipynb",
+      "bytes": 326921,
+      "sha256": "71500562c057a479df7ea2a1eae12beb3b00bc1e08ac91f70238a6841b3a6769"
+    },
+    {
+      "name": "datmm_consolidated_browser (1).html",
+      "bytes": 43916119,
+      "sha256": "ee2dc9102d7492b855ecd4bffc71bf6a15f3fa007cd2fff7783da2f7313131e7"
+    }
+  ],
+  "browser_snapshot": {
+    "nodes": 3858,
+    "edges": 7667,
+    "reported_status": {
+      "cohort_datasets": 78,
+      "cohort_trials": 64,
+      "exact_catalog_mappings": 78,
+      "cached_trials": 64,
+      "cached_publications": 675,
+      "publication_universe": 676,
+      "new_source_calls": {
+        "documentation": 60
+      },
+      "capped_entities": 0,
+      "failed_entities": 0
+    },
+    "embedded_plotly_version": "2.35.2",
+    "created_utc_as_reported": "2026-10-22T23:52:22.727727+00:00"
+  },
+  "scope": "Packaged supplied HTML without changing its bytes; inspected embedded payload. No source acquisition or independent scientific validation performed. Notebook source adapted and outputs cleared.",
+  "missing_inputs": [
+    "Original source CSV, beyond the cohort embedded in the notebook",
+    "Raw source-response caches and complete acquisition checkpoint",
+    "Standalone output files from the original run, other than the HTML"
+  ],
+  "validation_scope": "Packaging integrity and offline publisher tests; not independent verification of graph assertions."
+}

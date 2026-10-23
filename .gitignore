@@ -1,0 +1,12 @@
+dist/
+datmm_next/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*.key
+*checkpoint*.zip
+venv/
+.venv/
